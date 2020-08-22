@@ -20,7 +20,8 @@ Entering the following commands will trigger the bot<br>
 ?credits - Sends the user a message with the credits.<br>
 
 ## Planned Features
-The following changes and commands are planned 
+The following changes and commands are planned:
+- Adding more projects as they are started
 
 ### Requirements
 Requires Settings.json to work <br>
