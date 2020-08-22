@@ -1,0 +1,27 @@
+/* Thanks to /dev/null#5726 for helping me convert this into a bot for the Dragon Injector Server */
+
+/*************/
+/Version 2.1.6/
+/*************/
+
+2.1.6 - Added new trigger, delete trigger message.
+2.1.5 - Updated roles, added payload trigger
+2.1.4 - Updated to reflect project changes.
+2.1.3 - Updated for Release of v19
+2.1.2 - Added misc commands, commands can now be entered via DM
+2.1.1 - Added saturday orders live
+2.1.0 - Minor Refactor, Bot now replies to everything via DM
+2.0.3 - Removed timeout from bug causing it to reply to everything
+2.0.2 - Added timeout.
+2.0.1 - Added tools embed
+2.0.0 - Refactor and clean up bot.
+1.2.3 - Fixed tester roles after roles update in server, updated release once again.
+1.2.2 - Minor changes and setting config stuff
+1.2.1 - Added "testers" to excluded roles
+1.2.0 - Changed Release yet again, added autodelete section.
+1.1.8 - Changed release date
+1.1.7 - fixed triggers
+1.1.6 - Added Sale to keywords, changed release date and rephrased the replies.
+1.1.5 - Added Beta Tester to excluded roles
+1.1.4 - Added order/purchase stuff, fixed cost.
+pre 1.1.4 - Changelog doesn't exist.

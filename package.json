@@ -1,0 +1,17 @@
+{
+  "name": "dragon.bot",
+  "version": "1.2.3",
+  "description": "Bot made for the DragonInjector Server",
+  "main": "app.js",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adran, Dev/Null",
+  "license": "GPL-2.0-or-later"
+}
+
+

@@ -1,0 +1,8 @@
+/* Thanks to /dev/null#5726 for helping me convert this into a bot for the Dragonic Mods Server */
+
+/*************/
+/Version 3.0.0/
+/*************/
+
+3.0.0 - Complete bot rework to comply with Cease and Desist.
+Pre 3.0.0 - Changelog moved to changelog-archive.txt
