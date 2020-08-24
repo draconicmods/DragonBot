@@ -109,17 +109,6 @@ const piracy = message.content.match(new RegExp (/^(?=.*\b(sx|pirate|nsp|sxos|xc
    if(piracy) {
     message.react('651624619920588820')  
     message.author.send(ap);
-	message.delete();
+    message.delete();
 }});
-/*Delete any piracy related message
-client.on('message', message => {
-    if (message.author.bot) return;
-    if (message.channel.type !== "text") { 
-        return;
-}
-
-if (message.content == 'piracy') {
-        message.delete();
-    }
-});*/
 client.login(token);
