@@ -18,7 +18,6 @@ const embed = new Discord.RichEmbed()
   .addField('For help','Use `?help`')
   .addField('What about something that isn\'t? covered by the FAQ\'s?','Feel free to message in the discord server')
   //.addBlankField()
-  //.setImage('https://media.discordapp.net/attachments/516367045189959681/543270649901088778/DI_BANNER2.png')
   .setTimestamp()
   .setFooter('https://draconicmods.com/', 'https://media.discordapp.net/attachments/488214232203264001/651205690773340199/image0.png');
 module.exports = (embed);
