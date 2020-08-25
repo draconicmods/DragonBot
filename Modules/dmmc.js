@@ -19,7 +19,6 @@ const embed = new Discord.RichEmbed()
   .addField('Where can I get one?','The DragonEMMC is currently under development.')
   .addField('Where can I find out more?','You can find out more in the Discord \nor on the [website](https://draconicmods.com/)')
     //.addBlankField()
-  //.setImage('https://media.discordapp.net/attachments/516367045189959681/543270649901088778/DI_BANNER2.png')
   .setTimestamp()
   .setFooter('https://draconicmods.com/', 'https://media.discordapp.net/attachments/488214232203264001/651205690773340199/image0.png');
 module.exports = (embed);
