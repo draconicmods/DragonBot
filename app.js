@@ -85,7 +85,7 @@ if(message.content == ("?credits")){
     }
 
 //Ignores users if they have one of the following roles for the regex
-if (! message.member || message.member.roles.find('name', 'Creator') || message.member.roles.find('name', 'The Fuzz') || message.member.roles.find('name', 'Supporter')|| message.member.roles.find('name', 'Certified Madlad')) {
+if (! message.member || message.member.roles.find('name', 'Creator') || message.member.roles.find('name', 'The Fuzz') || message.member.roles.find('name', 'Certified Madlad')) {
         return;
     }
 //Sets regex constant for phrase(s) and replies
