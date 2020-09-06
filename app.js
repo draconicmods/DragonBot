@@ -85,14 +85,14 @@ if(message.content == ("?credits")){
     }
 
 //Ignores users if they have one of the following roles for the regex
-/*if (! message.member || message.member.roles.find('name', 'Creator') || message.member.roles.find('name', 'The Fuzz') || message.member.roles.find('name', 'Certified Madlad')) {
+if (! message.member || message.member.roles.find('name', 'Creator') || message.member.roles.find('name', 'The Fuzz') || message.member.roles.find('name', 'Certified Madlad')) {
         return;
-    }*/
+    }
 //Sets regex constant for phrase(s) and replies
 const preorder = message.content.match(new RegExp (/^(?=.*\b(dragon ?mmc|dmmc|dsi| dragon ?dsi)\b)(?=.*\b(preorder|pre-order)\b).*$/i));
 const cost = message.content.match(new RegExp(/^(?=.*\b(dragon ?mmc|dmmc|dsi| dragon ?dsi)\b)(?=.*\b(cost|price)\b).*$/i));
 const commands = message.content.match(new RegExp (/^(?=.*\b(dragon ?bot|db|bot|dragonbot)\b)(?=.*\b(help|halp)\b).*$/i));
-const piracy = message.content.match(new RegExp (/^(?=.*\b(sx|pirate|nsp|sxos|xci|modchip|atmosphere|reinx|cfw|nro|nsz|tinfoil|goldleaf|homebrew|jits|jack ?in ?the ?shop|tx|team ?xecuter|hbg|hbg ?shop|freeshop|free ?shop)\b).*$/i));
+const piracy = message.content.match(new RegExp (/^(?=.*\b(sx|pirate|nsp|lakka|emulator|sxos|xci|modchip|atmosphere|reinx|cfw|nro|nsz|tinfoil|goldleaf|homebrew|jits|jack ?in ?the ?shop|tx|team ?xecuter|hbg|hbg ?shop|freeshop|free ?shop)\b).*$/i));
    
     if(preorder) {  
     message.react('651624619920588820')
