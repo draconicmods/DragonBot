@@ -6,8 +6,8 @@
 ## Dragon Bot for the DraconicMods Discord Server
 
 ## How it works
-This bot is programmed to trigger on certian words or commands relating to DraconicMods projects.
-The bot will then react with the Dragonbot Emoji and reply via DM to the user who triggered the command.
+This bot is programmed to trigger on certian words or commands relating to DraconicMods projects.<br>
+The bot will then react with the Dragonbot Emoji and reply via DM to the user who triggered the command.<br>
 If a user enters a command that is in any way shape or form related to piracy, the bot will remove the message.
 
 ## Commands and Triggers 
