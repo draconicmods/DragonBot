@@ -8,6 +8,7 @@
 ## How it works
 This bot is programmed to trigger on certian words or commands relating to DraconicMods projects.
 The bot will then react with the Dragonbot Emoji and reply via DM to the user who triggered the command.
+If a user enters a command that is in any way shape or form related to piracy, the bot will remove the message.
 
 ## Commands and Triggers 
 The DragonBot will trigger upon the following phrases:<br>
@@ -16,7 +17,6 @@ The DragonBot will trigger upon the following phrases:<br>
 Entering the following commands will trigger the bot<br>
 ?help - Sends the user a message with all the commands.<br>
 ?faq - Sends the user a message with FAQ embed commands.<br>
-?tools - Sends the user a message with a links to the tools.<br>
 ?credits - Sends the user a message with the credits.<br>
 
 ## Planned Features
