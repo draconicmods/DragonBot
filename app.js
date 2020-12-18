@@ -92,7 +92,7 @@ if (! message.member || message.member.roles.find('name', 'Creator') || message.
 const preorder = message.content.match(new RegExp (/^(?=.*\b(dragon ?mmc|dmmc|dsi| dragon ?dsi)\b)(?=.*\b(preorder|pre-order)\b).*$/i));
 const cost = message.content.match(new RegExp(/^(?=.*\b(dragon ?mmc|dmmc|dsi| dragon ?dsi)\b)(?=.*\b(cost|price)\b).*$/i));
 const commands = message.content.match(new RegExp (/^(?=.*\b(dragon ?bot|db|bot|dragonbot)\b)(?=.*\b(help|halp)\b).*$/i));
-const piracy = message.content.match(new RegExp (/^(?=.*\b(sx|pirate|nsp|sxos|yuzu|xci|modchip|atmosphere|reinx|cfw|nro|nsz|tinfoil|goldleaf|homebrew|jits|jack ?in ?the ?shop|tx|team ?xecuter|hbg|hbg ?shop|freeshop|free ?shop)\b).*$/i));
+const piracy = message.content.match(new RegExp (/^(?=.*\b(sx|pirate|nsp|rcm|atmo|sxos|yuzu|xci|modchip|atmosphere|reinx|cfw|nro|hekate|emummc|nsz|tinfoil|goldleaf|homebrew|jits|jack ?in ?the ?shop|tx|team ?xecuter|hbg|hbg ?shop|freeshop|free ?shop)\b).*$/i));
    
     if(preorder) {  
     message.react('651624619920588820')
