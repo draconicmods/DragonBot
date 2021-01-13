@@ -107,11 +107,11 @@ const commands = message.content.match(new RegExp (/^(?=.*\b(dragon ?bot|db|bot|
     message.react('651624619920588820')
     message.author.send(`<@${message.author.id}>, Sorry MatinatorX doesn't believe in preorders`);
 }   
-    if(cost) {  
+    else if(cost) {  
     message.react('651624619920588820')
     message.author.send(`<@${message.author.id}>, Cost is yet to be announced. Keep an eye on <#489199851171610649>`);
 }
-    if(commands) {
+    else if(commands) {
     message.react('651624619920588820')  
     message.author.send(help);
 }});
