@@ -93,6 +93,14 @@ const piracy = message.content.match(new RegExp (/^(?=.*\b(sx|pirate|nsp|rcm|atm
         message.author.send(`<@${message.author.id}>, IT'S RAVE TIME!`, {files: ['https://media1.tenor.com/images/e19a05faf32c511572acd08a38bebdd6/tenor.gif']});
     }
 
+    
+ });
+
+/* Set the bot to reply to DM commands */
+client.on('message', message => {
+     if (message.author.bot) 
+        return;
+    
 //Ignores users if they have one of the following roles for the regex
 if (! message.member || message.member.roles.find('name', 'Creator') || message.member.roles.find('name', 'The Fuzz') || message.member.roles.find('name', 'Certified Madlad')) {
         return;
