@@ -96,7 +96,10 @@ const piracy = message.content.match(new RegExp (/^(?=.*\b(sx|pirate|nsp|rcm|atm
     
  });
 
-/* Set the bot to reply to DM commands */
+
+/* 
+THIS SECTION IS CURRENTLY BROKEN
+/* Set the bot to reply to DM commands 
 client.on('message', message => {
      if (message.author.bot) 
         return;
@@ -123,4 +126,5 @@ const commands = message.content.match(new RegExp (/^(?=.*\b(dragon ?bot|db|bot|
     message.react('651624619920588820')  
     message.author.send(help);
 }});
+*/
 client.login(token);
