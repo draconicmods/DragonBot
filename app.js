@@ -93,17 +93,8 @@ const piracy = message.content.match(new RegExp (/^(?=.*\b(sx|pirate|nsp|rcm|atm
         message.author.send(`<@${message.author.id}>, IT'S RAVE TIME!`, {files: ['https://media1.tenor.com/images/e19a05faf32c511572acd08a38bebdd6/tenor.gif']});
     }
 
-    
- });
-
-
-/* 
-THIS SECTION IS CURRENTLY BROKEN
-/* Set the bot to reply to DM commands 
-client.on('message', message => {
-     if (message.author.bot) 
-        return;
-    
+//THIS SECTION IS CURRENTLY BROKEN
+  
 //Ignores users if they have one of the following roles for the regex
 if (! message.member || message.member.roles.find('name', 'Creator') || message.member.roles.find('name', 'The Fuzz') || message.member.roles.find('name', 'Certified Madlad')) {
         return;
@@ -116,15 +107,14 @@ const commands = message.content.match(new RegExp (/^(?=.*\b(dragon ?bot|db|bot|
     
     if(preorder) {  
     message.react('651624619920588820')
-    message.author.send(`<@${message.author.id}>, Sorry MatinatorX doesn't believe in preorders`);
+    message.channel.reply(`<@${message.author.id}>, Sorry MatinatorX doesn't believe in preorders`);
 }   
     else if(cost) {  
     message.react('651624619920588820')
-    message.author.send(`<@${message.author.id}>, Cost is yet to be announced. Keep an eye on <#489199851171610649>`);
+    message.channel.reply(`<@${message.author.id}>, Cost is yet to be announced. Keep an eye on <#489199851171610649>`);
 }
     else if(commands) {
     message.react('651624619920588820')  
     message.author.send(help);
 }});
-*/
 client.login(token);
