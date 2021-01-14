@@ -107,11 +107,11 @@ const commands = message.content.match(new RegExp (/^(?=.*\b(dragon ?bot|db|bot|
     
     if(preorder) {  
     message.react('651624619920588820')
-    message.channel.reply(`<@${message.author.id}>, Sorry MatinatorX doesn't believe in preorders`);
+    message.channel.send(`<@${message.author.id}>, Sorry MatinatorX doesn't believe in preorders`);
 }   
     else if(cost) {  
     message.react('651624619920588820')
-    message.channel.reply(`<@${message.author.id}>, Cost is yet to be announced. Keep an eye on <#489199851171610649>`);
+    message.channel.send(`<@${message.author.id}>, Cost is yet to be announced. Keep an eye on <#489199851171610649>`);
 }
     else if(commands) {
     message.react('651624619920588820')  
