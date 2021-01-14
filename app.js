@@ -62,7 +62,11 @@ client.on('message', message => {
 
 //Moved AP and assosiated regex here in 3.0.1 so mods can trigger AP section
 const piracy = message.content.match(new RegExp (/^(?=.*\b(sx|pirate|nsp|rcm|atmo|sxos|yuzu|xci|modchip|atmosphere|reinx|cfw|nro|hekate|emummc|nsz|tinfoil|goldleaf|homebrew|jits|jack ?in ?the ?shop|tx|team ?xecuter|hbg|hbg ?shop|freeshop|free ?shop)\b).*$/i));
-
+//Sets regex constant for phrase(s) and replies.
+const preorder = message.content.match(new RegExp (/^(?=.*\b(dragon ?mmc|dmmc|dsi| dragon ?dsi)\b)(?=.*\b(preorder|pre-order)\b).*$/i));
+const cost = message.content.match(new RegExp(/^(?=.*\b(dragon ?mmc|dmmc|dsi| dragon ?dsi)\b)(?=.*\b(cost|price)\b).*$/i));
+const commands = message.content.match(new RegExp (/^(?=.*\b(dragon ?bot|db|bot|dragonbot)\b)(?=.*\b(help|halp)\b).*$/i));
+    
 //this is here so anyone can trigger the commands
  if(piracy) {
     message.react('651624619920588820')  
@@ -99,12 +103,7 @@ const piracy = message.content.match(new RegExp (/^(?=.*\b(sx|pirate|nsp|rcm|atm
 if (! message.member || message.member.roles.find('name', 'Creator') || message.member.roles.find('name', 'The Fuzz') || message.member.roles.find('name', 'Certified Madlad')) {
         return;
 }
-    
-//Sets regex constant for phrase(s) and replies.
-const preorder = message.content.match(new RegExp (/^(?=.*\b(dragon ?mmc|dmmc|dsi| dragon ?dsi)\b)(?=.*\b(preorder|pre-order)\b).*$/i));
-const cost = message.content.match(new RegExp(/^(?=.*\b(dragon ?mmc|dmmc|dsi| dragon ?dsi)\b)(?=.*\b(cost|price)\b).*$/i));
-const commands = message.content.match(new RegExp (/^(?=.*\b(dragon ?bot|db|bot|dragonbot)\b)(?=.*\b(help|halp)\b).*$/i));
-    
+      
     if(preorder) {  
     message.react('651624619920588820')
     message.channel.send(`<@${message.author.id}>, Sorry MatinatorX doesn't believe in preorders`);
