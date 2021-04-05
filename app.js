@@ -17,6 +17,7 @@ const ap = require('./Modules/anti-piracy.js')
 const credits = require('./Modules/credits.js')
 const faq = require('./Modules/faq.js')
 const help = require('./Modules/help.js')
+const projects = require('./Modules/projects.js')
 
 /* Loggin the bot in and setting its activity */
 client.on('ready',() => {
@@ -39,6 +40,9 @@ client.on('message', message => {
     
     } else if(message.content == ("?faq")){
         message.reply(faq);
+        
+    } else if(message.content == ("?projects")){
+        message.reply(projects);  
         
     } else if 
     (message.reply("Please enter `?help` for a list of commands."));
